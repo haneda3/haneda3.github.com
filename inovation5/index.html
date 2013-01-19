@@ -3,6 +3,17 @@
 <head>
     <title></title>
     <meta charset="utf-8">
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37780070-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
     <script src="MyAudio.js"></script>
     <script src="InputDevice.js"></script>
     <script src="GameState.js"></script>
@@ -14,5 +25,7 @@
 </head>
 <body onload="init();">
 <canvas id="canvas" width="320" height="240"></canvas>
+<br />
+<a href="http://o-mega.sakura.ne.jp/product/ino.html">original</a> / <a href="https://github.com/haneda3/inovation5">source code</a>
 </body>
 </html>
