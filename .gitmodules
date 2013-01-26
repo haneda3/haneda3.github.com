@@ -1,0 +1,3 @@
+[submodule "inovation5"]
+	path = inovation5
+	url = git://github.com/haneda3/inovation5.git
